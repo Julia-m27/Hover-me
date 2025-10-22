@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Life+Savers:wght@800&display=swap");
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #f6dcfc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  height: 100px;
+}
+
+path {
+  stroke: #ed5af2;
+  stroke-width: 4px;
+  fill: none;
+  stroke-linecap: round;
+}
+
+text {
+  fill: #0568f2;
+  font-family: "Life Savers", serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 28px;
+}
+
+a {
+  height: 100px;
+  cursor: pointer;
+}

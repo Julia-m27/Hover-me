@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hover Me Animation</title>
+  <link rel="stylesheet" href="style.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+  <a href="#" id="anchor">
+    <svg viewBox="0 0 200 120" width="200px" height="120px">
+      <path id="top" d="M 10,70 Q 100,70 190,70" />
+      <text class="path-text">
+        <textPath href="#top" startOffset="50%" text-anchor="middle">
+          <tspan dy="-12">Hover me!</tspan>
+        </textPath>
+      </text>
+    </svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
